@@ -4,7 +4,7 @@ This is a calculator app that was designed using Create React App
 
 ## Live Demo
 
-Check the application live [Here]()
+Check the application live [Here](https://lydia-calculator-app.netlify.app/)
 
 ## Getting Started
 
