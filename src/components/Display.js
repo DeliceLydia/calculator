@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types';
 
 const Display = ({value}) => (
+  <div>
   {value}
+  </div>
 );
 
-Display.PropTypes = {
-  value: PropTypes.string,
+Display.propTypes = {
+  value: PropTypes.string.isRequired,
 };
 
 Display.defaultProps = {
