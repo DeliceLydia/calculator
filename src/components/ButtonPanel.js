@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+// eslint-disable-next-line import/no-named-as-default
 import Button from './Button';
 
 const ButtonPanel = ({ clickHandler }) => {
