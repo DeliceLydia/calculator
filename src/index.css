@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-.button-list button,
+button,
 .component-display {
   padding: 30px 80px;
   font-size: 26px;
@@ -27,4 +27,3 @@ button {
 .operation {
   background-color: yellow;
 }
-
