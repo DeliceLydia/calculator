@@ -52,7 +52,7 @@ Check the application live [Here](https://lydia-calculator-app.netlify.app/)
 
 ## Acknowledgments
 
-Credits goes to [Facebook Developers](https://github.com/facebook/create-react-app) for designing Create-React-App that make our life easier.
+Credits goes to [Facebook Developers](https://github.com/facebook/create-react-app) for designing Create-React-App that makes our life easier.
 
 ## Show your support
 

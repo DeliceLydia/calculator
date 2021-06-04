@@ -5,13 +5,17 @@ body {
 
 .button-list button,
 .component-display {
-  padding: 40px 80px;
+  padding: 30px 80px;
   font-size: 26px;
 }
 
 button {
   background-color: rgb(228, 228, 228);
- 
+}
+
+.component-app {
+  width: 800px;
+  margin: 7% auto;
 }
 
 .component-display {
@@ -20,7 +24,7 @@ button {
   color: #fff;
 }
 
-.button-list .operation {
+.operation {
   background-color: yellow;
 }
 

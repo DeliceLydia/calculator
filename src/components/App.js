@@ -19,7 +19,7 @@ const App = () => {
     setOperation(objOperation);
   };
   return (
-    <div>
+    <div className="component-app">
       <>
         <Display result={next || total || '0'} />
         <ButtonPanel clickHandler={handleClick} />
