@@ -74,4 +74,4 @@ Give a ⭐️ if you like
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/DeliceLydia/calculator/blob/main/LICENSE) licensed.
