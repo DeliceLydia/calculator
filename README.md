@@ -2,9 +2,22 @@
 
 This is a calculator app that was designed using Create React App
 
+# About Project
+
+  App provides all the features of a calculator e.g addition, substraction, multiplication, and division.
+
 ## Live Demo
 
 Check the application live [Here](https://lydia-calculator-app.netlify.app/)
+
+
+## Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm install` | Install project dependencies |
+| `npm start` | Build project and open web server running project |
+| `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
 
 ## Getting Started
 
@@ -34,6 +47,7 @@ Check the application live [Here](https://lydia-calculator-app.netlify.app/)
 - CSS
 - Javascript
 - React
+- Netlify
 
 ## Author
 
@@ -58,3 +72,6 @@ Credits goes to [Facebook Developers](https://github.com/facebook/create-react-a
 
 Give a ⭐️ if you like 
 
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
