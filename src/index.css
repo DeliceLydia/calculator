@@ -1,5 +1,29 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+}
+
+button,
+.component-display {
+  padding: 30px 80px;
+  font-size: 26px;
+}
+
+button {
+  background-color: rgb(228, 228, 228);
+}
+
+.component-app {
+  width: 800px;
+  margin: 7% auto;
+}
+
+.component-display {
+  background-color: grey;
+  text-align: right;
+  color: #fff;
+}
+
+.operation {
+  background-color: yellow;
 }
