@@ -1,6 +1,6 @@
 # Calculator-App
 
-This is a calculator app that was designed using React, with this application you are able to perfom mathematic operations using addition, multiplication, subtraction, division etc.
+This is a calculator app that was designed using React, with this application you are able to perfom mathematic operations.
 
 ![screenshot](./calt.png)
 
