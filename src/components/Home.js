@@ -2,9 +2,9 @@ const Home = () => (
   <div className="homepage">
     <h1>Welcome to our calculator app</h1>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
-      sed? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-      inventore ducimus quae delectus molestias repudiandae fugiat repellendus atque! Cum, numquam.
+      This is a calculator app where users will be able to perform mathematic
+      operations by using 4 mathematical operations: Addition, Subtraction,
+      Multiplication, Division .
     </p>
   </div>
 );
