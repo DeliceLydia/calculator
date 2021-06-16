@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 
-// eslint-disable-next-line react/prop-types
 const Button = ({ name, clickHandler }) => {
   const handleClick = () => clickHandler(name);
   const getClass = (name) => {
@@ -26,6 +25,7 @@ const Button = ({ name, clickHandler }) => {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default Button;
