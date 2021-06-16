@@ -9,13 +9,13 @@ const ButtonPanel = ({ clickHandler }) => {
         <Button name="AC" clickHandler={handleClick} />
         <Button name="+/-" clickHandler={handleClick} />
         <Button name="%" clickHandler={handleClick} />
-        <Button name="÷" clickHandler={handleClick} />
+        <Button name="/" clickHandler={handleClick} />
       </div>
       <div className="group2">
         <Button name="7" clickHandler={handleClick} />
         <Button name="8" clickHandler={handleClick} />
         <Button name="9" clickHandler={handleClick} />
-        <Button name="X" clickHandler={handleClick} />
+        <Button name="*" clickHandler={handleClick} />
       </div>
       <div className="group3">
         <Button name="4" clickHandler={handleClick} />
