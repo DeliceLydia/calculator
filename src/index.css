@@ -46,18 +46,20 @@ h1 {
   height: 100px;
 }
 
-.Button {
-  flex-basis: 25%;
+
+.btn {
+  width: 25%;
   background-color: #e0e0e0;
   border: 1px solid #bababa;
   cursor: pointer;
+  outline: none;
 }
 
 .zero {
-  flex-basis: 50%;
+  width: 50%;
 }
 
-.operator {
+.operation {
   background-color: #f5913e;
 }
 
