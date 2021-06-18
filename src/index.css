@@ -1,29 +1,77 @@
-body {
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: #f5913e;
+}
+
+h1 {
   margin: 0;
-  padding: 0;
-}
-
-button,
-.component-display {
-  padding: 30px 80px;
-  font-size: 26px;
-}
-
-button {
-  background-color: rgb(228, 228, 228);
+  font-size: 28px;
+  color: #f5913e;
 }
 
 .component-app {
-  width: 800px;
-  margin: 7% auto;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .component-display {
-  background-color: grey;
+  background-color: #858694;
+  color: white;
   text-align: right;
-  color: #fff;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  padding-right: 10px;
+}
+
+.button-list {
+  width: 100%;
+}
+
+.button-list > * {
+  display: flex;
+  justify-content: stretch;
+  height: 100px;
+}
+
+.btn {
+  width: 25%;
+  background-color: #e0e0e0;
+  border: 1px solid #bababa;
+  cursor: pointer;
+  outline: none;
+}
+
+.zero {
+  width: 50%;
 }
 
 .operation {
-  background-color: yellow;
+  background-color: #f5913e;
+}
+
+.homepage {
+  margin-top: 10%;
+  width: 100%;
+}
+
+p {
+  width: 70%;
+}
+
+.quote {
+  font-size: 30px;
+  font-style: italic;
 }

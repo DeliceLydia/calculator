@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<p
+  className="quote"
+>
+  Math may not teach us how to add love, or substract hate, but it gives us hope that every problem has a solution.
+</p>
+`;

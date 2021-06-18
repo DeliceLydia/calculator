@@ -1,24 +1,9 @@
 import PropTypes from 'prop-types';
 
-// eslint-disable-next-line react/prop-types
-const Button = ({ name, clickHandler }) => {
+const Button = ({ name, clickHandler, ButtonClass }) => {
   const handleClick = () => clickHandler(name);
-  const getClass = (name) => {
-    switch (name) {
-      case '0':
-        return 'Button zero';
-      case '+':
-      case '-':
-      case 'X':
-      case '÷':
-      case '=':
-        return 'Button operator';
-      default:
-        return 'Button';
-    }
-  };
   return (
-    <button type="button" onClick={handleClick} className={getClass(name)}>
+    <button type="button" onClick={handleClick} className={ButtonClass}>
       {name}
     </button>
   );
@@ -26,6 +11,8 @@ const Button = ({ name, clickHandler }) => {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
+  clickHandler: PropTypes.func.isRequired,
+  ButtonClass: PropTypes.string.isRequired,
 };
 
 export default Button;
