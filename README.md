@@ -2,7 +2,7 @@
 
 This is a calculator app that was designed using React, with this application you are able to perfom mathematic operations.
 
-![screenshot](./calt.png)
+![screenshot](./calcul.png)
 
 # About Project
 
@@ -43,6 +43,8 @@ Check the application live [Here](https://lydia-calculator-app.netlify.app/)
    
 * The server would usually start on port:3000
 
+* Run ``` npm test ``` to run tests
+
 ## Built with
 
 - HTML
@@ -50,6 +52,10 @@ Check the application live [Here](https://lydia-calculator-app.netlify.app/)
 - Javascript
 - React
 - Netlify
+
+## Tested with
+
+- Jest
 
 ## Author
 
