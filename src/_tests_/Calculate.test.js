@@ -51,3 +51,19 @@ test('equal after operation', () => {
   const calculation = calculate({ total: '1', next: '2', operation: '+' }, '=');
   expect(calculation.total).toBe('3');
 });
+
+test('if user presses / key, calculate assigns / to operation', () => {
+  expect(calculate({
+    total: 9, next: null, operation: null,
+  }, '/')).toEqual({
+    total: 9, next: null, operation: '/',
+  });
+});
+
+test("if user presses / key, calculate doesn't leave operation at null", () => {
+  expect(calculate({
+    total: 9, next: null, operation: null,
+  }, '/')).not.toEqual({
+    total: 9, next: null, operation: null,
+  });
+});
